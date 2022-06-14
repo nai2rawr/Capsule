@@ -1,7 +1,8 @@
 const app = require('../server');
 const debug = require('debug');
 const http = require('http');
-const PORT = 6000
+const PORT = 6000;
+const port = normalizePort(process.env.PORT || '3000');
 
 
 // create port
