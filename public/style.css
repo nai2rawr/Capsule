@@ -1,0 +1,92 @@
+#blog{
+    background-image:url("imgs/25E33BD6-8362-431A-9B3F-C8A2899D8AF0_1_105_c.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pay{
+    background-image:url("imgs/71413D4C-7025-48A4-9442-F67DAC4CF27A_4_5005_c.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#archive{
+    background-image: url("imgs/B72C19F0-060D-47C3-A30A-761FD2FA630A_1_105_c.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#aboutme{
+    background-image:url("imgs/668F6DC0-0001-4A77-9947-8E8B3D1D3A18_1_105_c.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ask{
+    background-image: url("imgs/430414DF-F14C-4EB9-9643-45A9E323B134_1_102_o.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#links{
+    color: #fdefbd;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+#user{
+     color:#fdefbd;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    font-size: 13px;
+    flex-direction: column; 
+}
+#pfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    align-content: center;
+    overflow: hidden;
+
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+#search{
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 15px;
+}
+#box{
+    border: 4px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+@import"../nodes_modules/bootstrap/scss/bootstrp";
